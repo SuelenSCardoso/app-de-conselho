@@ -1,0 +1,71 @@
+body {
+    background-color: var(--background-color)
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.caixa-conselho {
+    max-width: 450px;
+    min-height: 280px;
+    border-radius: 10px;
+    background-color: var(--advice-card-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.advice {
+    font-size: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--advice-dice-color);
+    margin: 20px;
+    text-align: center;
+}
+
+.conselho {
+    margin:20px;
+    font-size: 24px;
+    color: var(--text-color);
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+
+.separa-tela {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(13%);
+
+}
+
+#botao {
+    border: solid 17px var(--advice-dice-color);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(385%, 485%);
+    
+}
+
+.imagem-botao {
+    width: 18px;
+    display: flex;
+}
+
+@media (max-width:768px){
+    .caixa-conselho {
+        max-width: 290px;
+        max-height: 250px;
+    }
+
+    .conselho {
+        font-size: 20px;
+    }
+
+    #botao {
+        transform: translate(230%, 483%);
+    }
+}
