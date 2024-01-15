@@ -1,6 +1,6 @@
 <h1>🚀 Aplicativo Gerador de conselhos 🚀</h1><br>
 <h2>Objetivo da Quest:</h2>
-<p>Usando um projeto feito anteriomente em outras aulas, apenas com HTML e CSS, foi proposto que utilizássemos uma API de conselhos para dar funcionalidade ao projeto.
+<p>Usando um projeto feito anteriormente em outra aula, apenas com HTML e CSS, foi proposto que utilizássemos uma API de conselhos para dar funcionalidade ao projeto.
 Fazendo com que à cada click, fosse gerado um novo conselho.</p>
 
 # Gif Project
